@@ -124,7 +124,7 @@ Link(destination: URL(string: "https://YOUR_USERNAME.github.io/biblechat-legal/t
 1. **Replace placeholders** in the HTML files:
    - `[Your State]` in terms.html (line in Governing Law section)
    - `[Your website URL]` in both files (Contact Us sections)
-   - `support@biblechat.app` email address (if different)
+    - `support@dailybibleverseapp.life` email address (if different)
 
 2. **Review for accuracy**:
    - Ensure all features described match your actual app
