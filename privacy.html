@@ -79,7 +79,7 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: January 31, 2026</p>
+        <p class="last-updated">Last Updated: February 4, 2026</p>
 
         <p>BibleChat ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and protect your personal information when you use the BibleChat iOS app.</p>
 
@@ -270,15 +270,36 @@
             <li>Firebase server data (user profile, usage counters) - contact us to request server-side deletion</li>
         </ul>
 
-        <h3>6.3 Request Account Deletion</h3>
-        <p>To completely delete your account and all associated server data, email us at <a href="mailto:support@dailybibleverseapp.life">support@dailybibleverseapp.life</a> with your Apple User ID. We will delete:</p>
+        <h3>6.3 Delete Your Account</h3>
+        <p>You can delete your account directly in the app:</p>
+        <ol>
+            <li>Go to <strong>Settings → Account → Delete Account</strong></li>
+            <li>Confirm deletion by typing "DELETE"</li>
+            <li>Your data will be deleted as described below</li>
+        </ol>
+
+        <h4>What Gets Deleted Immediately</h4>
         <ul>
-            <li>Your Firebase user profile</li>
-            <li>All conversation metadata</li>
-            <li>All usage logs</li>
-            <li>Your authentication record</li>
+            <li><strong>Personal content:</strong> Journal entries, AI conversations, daily reflections, reading progress</li>
+            <li><strong>Local data:</strong> All data stored on your device</li>
+            <li><strong>iCloud backup:</strong> Journal backups (if Premium subscriber)</li>
+            <li><strong>Authentication:</strong> Your Firebase authentication account</li>
         </ul>
-        <p>This process is completed within 30 days of your request.</p>
+
+        <h4>What We Retain Temporarily (90 Days)</h4>
+        <p>For fraud prevention and billing purposes, we retain minimal data for 90 days:</p>
+        <ul>
+            <li><strong>Apple User ID:</strong> To prevent abuse of free tier AI reflections</li>
+            <li><strong>Usage counters:</strong> Your AI reflection count (e.g., "12 of 15 used")</li>
+            <li><strong>Transaction IDs:</strong> Required for App Store refund processing</li>
+            <li><strong>Subscription status:</strong> Your tier at time of deletion (free/premium)</li>
+        </ul>
+
+        <p><strong>If you sign back in within 90 days:</strong> Your usage counts will be restored to prevent exploitation. For example, if you used 10 of 15 free reflections and deleted your account, signing back in will restore you to 10 used (5 remaining).</p>
+
+        <p><strong>After 90 days:</strong> All retained data is permanently deleted. If you sign in after this period, you'll be treated as a new user with a fresh monthly limit.</p>
+
+        <p><strong>Legal Basis:</strong> This temporary retention is based on our legitimate interest in preventing service abuse (GDPR Article 6(1)(f)) and complying with financial record-keeping requirements.</p>
 
         <h3>6.4 Manage Cookies & Tracking</h3>
         <ul>
@@ -297,10 +318,10 @@
         <h2>7. Data Retention</h2>
 
         <ul>
-            <li><strong>Local Data:</strong> Stored indefinitely until you delete it or uninstall the app</li>
-            <li><strong>Firebase User Profile:</strong> Retained while your account is active. Deleted 30 days after account deletion request.</li>
-            <li><strong>Analytics Data:</strong> Aggregated and anonymized. Retained for 2 years.</li>
-            <li><strong>Usage Logs:</strong> Retained for 90 days for debugging and cost analysis</li>
+            <li><strong>Active accounts:</strong> Data retained as long as your account is active</li>
+            <li><strong>Deleted accounts:</strong> Personal content deleted immediately; fraud-prevention data (Apple User ID, usage counts, transaction IDs) retained 90 days</li>
+            <li><strong>Usage logs:</strong> Retained for 90 days for debugging and cost analysis</li>
+            <li><strong>Analytics:</strong> Aggregated and anonymized, retained for 2 years</li>
             <li><strong>iCloud Backup:</strong> Retained until you delete it from iCloud or cancel your Premium subscription</li>
         </ul>
 

@@ -79,7 +79,7 @@
 <body>
     <div class="container">
         <h1>Terms of Service</h1>
-        <p class="last-updated">Last Updated: January 31, 2026</p>
+        <p class="last-updated">Last Updated: February 4, 2026</p>
 
         <p>Welcome to BibleChat. These Terms of Service ("Terms") govern your use of the BibleChat iOS mobile application ("App," "Service," or "BibleChat"). By downloading, accessing, or using BibleChat, you agree to be bound by these Terms. If you do not agree, do not use the App.</p>
 
@@ -172,9 +172,46 @@
             <li>iCloud backup may be deleted after your subscription ends (download your data first)</li>
         </ul>
 
-        <h2>5. AI Reflection Usage</h2>
+        <h2>5. Abuse Prevention</h2>
 
-        <h3>5.1 AI Service Description</h3>
+        <p>To maintain service quality for all users, we implement the following measures:</p>
+
+        <h3>5.1 Usage Limits</h3>
+        <ul>
+            <li><strong>AI reflection limits:</strong> 15 conversations per month for free tier, 30 per month for Premium</li>
+            <li><strong>Rate limiting:</strong> Enforced server-side to prevent API abuse</li>
+            <li><strong>Message limits:</strong> 10 messages per conversation (free), 25 messages (Premium)</li>
+        </ul>
+
+        <h3>5.2 Account Deletion Tracking</h3>
+        <p>When you delete your account, we temporarily retain minimal data for 90 days to prevent abuse:</p>
+        <ul>
+            <li>Your Apple User ID (stable identifier)</li>
+            <li>Your AI usage count for the current month</li>
+            <li>Your subscription tier and transaction IDs</li>
+        </ul>
+
+        <p><strong>Why we do this:</strong> Without this protection, users could bypass free tier limits by repeatedly deleting and recreating accounts with the same Apple ID to get unlimited free AI reflections.</p>
+
+        <p><strong>If you sign back in within 90 days:</strong> Your usage counts will be restored to where you left off. For example, if you had used 12 of 15 free reflections and deleted your account, signing back in would restore you to 12 used (3 remaining).</p>
+
+        <p><strong>After 90 days:</strong> All retained data is permanently deleted, and you can sign in as a new user with a fresh monthly limit.</p>
+
+        <p><strong>Monthly reset still applies:</strong> If you delete your account in January and sign back in February, your usage count resets to 0 (normal monthly behavior).</p>
+
+        <h3>5.3 Prohibited Actions</h3>
+        <p>Attempts to circumvent these limits may result in service suspension, including but not limited to:</p>
+        <ul>
+            <li>Creating multiple accounts with different Apple IDs to bypass limits</li>
+            <li>Repeatedly deleting and recreating accounts to reset usage counters</li>
+            <li>Using automation, bots, or scripts to generate conversations</li>
+            <li>API manipulation or reverse-engineering</li>
+            <li>Sharing accounts or credentials</li>
+        </ul>
+
+        <h2>6. AI Reflection Usage</h2>
+
+        <h3>6.1 AI Service Description</h3>
         <p>BibleChat's AI reflection companion uses OpenAI's GPT-4o-mini model to provide:</p>
         <ul>
             <li>Spiritual reflection prompts based on your selected scripture and emotion</li>
@@ -182,7 +219,7 @@
             <li>Compassionate, non-judgmental responses to your reflections</li>
         </ul>
 
-        <h3>5.2 Usage Limits</h3>
+        <h3>6.2 Usage Limits</h3>
         <p>AI conversations are subject to monthly limits to ensure fair access and manage costs:</p>
         <ul>
             <li><strong>Free users:</strong> 15 conversations per month, 10 messages per conversation</li>
@@ -190,7 +227,7 @@
         </ul>
         <p>Limits reset on the 1st of each calendar month (UTC time). Unused conversations do not roll over.</p>
 
-        <h3>5.3 AI Limitations & Disclaimers</h3>
+        <h3>6.3 AI Limitations & Disclaimers</h3>
         <p><strong>The AI reflection companion is NOT:</strong></p>
         <ul>
             <li>A replacement for professional mental health counseling or therapy</li>
@@ -206,10 +243,10 @@
             <li><strong>International:</strong> <a href="https://findahelpline.com/" target="_blank">findahelpline.com</a></li>
         </ul>
 
-        <h3>5.4 AI Content Accuracy</h3>
+        <h3>6.4 AI Content Accuracy</h3>
         <p>AI-generated responses may contain errors, inaccuracies, or content that does not align with your personal beliefs or denominational teaching. BibleChat does not endorse or verify the theological accuracy of AI-generated content. Use your own discernment and consult trusted spiritual advisors when needed.</p>
 
-        <h3>5.5 Prohibited AI Use</h3>
+        <h3>6.5 Prohibited AI Use</h3>
         <p>You may NOT use the AI reflection feature to:</p>
         <ul>
             <li>Generate content that violates our Acceptable Use Policy (see Section 6)</li>
@@ -219,7 +256,7 @@
             <li>Share or resell AI-generated content as your own</li>
         </ul>
 
-        <h2>6. Acceptable Use Policy</h2>
+        <h2>7. Acceptable Use Policy</h2>
 
         <p>You agree NOT to use BibleChat to:</p>
         <ul>
@@ -234,15 +271,15 @@
             <li>Reverse-engineer, decompile, or disassemble the App</li>
         </ul>
 
-        <h2>7. Intellectual Property</h2>
+        <h2>8. Intellectual Property</h2>
 
-        <h3>7.1 BibleChat's Rights</h3>
+        <h3>8.1 BibleChat's Rights</h3>
         <p>BibleChat and all related trademarks, logos, graphics, and content (excluding user-generated content and Bible text) are owned by BibleChat or our licensors. You may not copy, modify, distribute, or create derivative works without our written permission.</p>
 
-        <h3>7.2 Bible Text</h3>
+        <h3>8.2 Bible Text</h3>
         <p>Scripture quotations are from the World English Bible (WEB), which is in the public domain.</p>
 
-        <h3>7.3 Your Content</h3>
+        <h3>8.3 Your Content</h3>
         <p>You retain ownership of your journal entries, reflections, and other content you create in BibleChat ("Your Content"). By using the Service, you grant us a limited license to:</p>
         <ul>
             <li>Store Your Content on our servers (Firebase, iCloud)</li>
@@ -251,7 +288,7 @@
         </ul>
         <p>We do NOT claim ownership of Your Content. We do NOT use Your Content for marketing, training AI models, or any purpose other than providing the Service to you.</p>
 
-        <h2>8. Third-Party Services</h2>
+        <h2>9. Third-Party Services</h2>
 
         <p>BibleChat integrates with third-party services:</p>
         <ul>
@@ -269,7 +306,7 @@
 
         <p>We are not responsible for the availability, accuracy, or content of third-party services.</p>
 
-        <h2>9. Data & Privacy</h2>
+        <h2>10. Data & Privacy</h2>
 
         <p>Your privacy is important to us. Please review our <a href="privacy.html">Privacy Policy</a> to understand how we collect, use, and protect your information.</p>
 
@@ -281,7 +318,7 @@
             <li>You can export or delete your data anytime</li>
         </ul>
 
-        <h2>10. Data Backup & Loss</h2>
+        <h2>11. Data Backup & Loss</h2>
 
         <p><strong>Your Responsibility:</strong> You are responsible for backing up your journal entries and reflections. While we provide iCloud backup as a Premium feature, we are not liable for data loss due to:</p>
         <ul>
@@ -294,9 +331,9 @@
 
         <p><strong>Recommendation:</strong> Use the "Export Journal Data" feature in Settings to periodically save a backup to your Files app or email.</p>
 
-        <h2>11. Disclaimers & Limitations of Liability</h2>
+        <h2>12. Disclaimers & Limitations of Liability</h2>
 
-        <h3>11.1 No Warranties</h3>
+        <h3>12.1 No Warranties</h3>
         <p>BibleChat is provided "AS IS" and "AS AVAILABLE" without warranties of any kind, either express or implied, including but not limited to:</p>
         <ul>
             <li>Merchantability</li>
@@ -306,7 +343,7 @@
             <li>Uninterrupted or error-free operation</li>
         </ul>
 
-        <h3>11.2 Limitation of Liability</h3>
+        <h3>12.2 Limitation of Liability</h3>
         <p>To the fullest extent permitted by law, BibleChat and its developers, employees, and affiliates shall NOT be liable for:</p>
         <ul>
             <li>Indirect, incidental, special, consequential, or punitive damages</li>
@@ -318,7 +355,7 @@
 
         <p><strong>Maximum Liability:</strong> Our total liability to you shall not exceed the amount you paid for BibleChat Premium in the 12 months preceding the claim (or $50, whichever is greater).</p>
 
-        <h3>11.3 Not Medical or Professional Advice</h3>
+        <h3>12.3 Not Medical or Professional Advice</h3>
         <p>BibleChat is for spiritual reflection and personal journaling. It is NOT:</p>
         <ul>
             <li>Medical advice or mental health treatment</li>
@@ -328,7 +365,7 @@
         </ul>
         <p>Always seek qualified professional help for medical, mental health, or spiritual concerns.</p>
 
-        <h2>12. Indemnification</h2>
+        <h2>13. Indemnification</h2>
 
         <p>You agree to indemnify, defend, and hold harmless BibleChat, its developers, employees, and affiliates from any claims, damages, losses, or expenses (including legal fees) arising from:</p>
         <ul>
@@ -338,7 +375,7 @@
             <li>Content you submit or transmit through BibleChat</li>
         </ul>
 
-        <h2>13. Changes to the Service</h2>
+        <h2>14. Changes to the Service</h2>
 
         <p>We reserve the right to:</p>
         <ul>
@@ -350,7 +387,7 @@
 
         <p>We will make reasonable efforts to notify you of significant changes via in-app notices or email.</p>
 
-        <h2>14. Changes to These Terms</h2>
+        <h2>15. Changes to These Terms</h2>
 
         <p>We may update these Terms from time to time. If we make material changes, we will:</p>
         <ul>
@@ -361,9 +398,9 @@
 
         <p>Your continued use after changes become effective constitutes acceptance of the updated Terms.</p>
 
-        <h2>15. Termination</h2>
+        <h2>16. Termination</h2>
 
-        <h3>15.1 Termination by You</h3>
+        <h3>16.1 Termination by You</h3>
         <p>You may stop using BibleChat at any time by:</p>
         <ul>
             <li>Deleting the app from your device</li>
@@ -371,7 +408,7 @@
             <li>Requesting account deletion via <a href="mailto:support@dailybibleverseapp.life">support@dailybibleverseapp.life</a></li>
         </ul>
 
-        <h3>15.2 Termination by Us</h3>
+        <h3>16.2 Termination by Us</h3>
         <p>We may suspend or terminate your access to BibleChat immediately, without notice, if you:</p>
         <ul>
             <li>Violate these Terms</li>
@@ -380,7 +417,7 @@
             <li>Attempt to bypass rate limits or subscriptions</li>
         </ul>
 
-        <h3>15.3 Effect of Termination</h3>
+        <h3>16.3 Effect of Termination</h3>
         <p>Upon termination:</p>
         <ul>
             <li>Your right to use BibleChat immediately ceases</li>
@@ -389,37 +426,37 @@
             <li>Server-side data (Firebase, iCloud) may be deleted within 30 days</li>
         </ul>
 
-        <h2>16. Governing Law & Dispute Resolution</h2>
+        <h2>17. Governing Law & Dispute Resolution</h2>
 
-        <h3>16.1 Governing Law</h3>
+        <h3>17.1 Governing Law</h3>
         <p>These Terms are governed by the laws of the State of California, United States, without regard to conflict of law principles.</p>
 
-        <h3>16.2 Dispute Resolution</h3>
+        <h3>17.2 Dispute Resolution</h3>
         <p>If you have a dispute with BibleChat, please contact us first at <a href="mailto:support@dailybibleverseapp.life">support@dailybibleverseapp.life</a> to resolve the issue informally.</p>
 
         <p>If informal resolution fails, disputes shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association (AAA). You and BibleChat agree to waive the right to a jury trial or to participate in a class action.</p>
 
-        <h3>16.3 Exceptions</h3>
+        <h3>17.3 Exceptions</h3>
         <p>Either party may seek injunctive relief in court to prevent irreparable harm.</p>
 
-        <h2>17. Miscellaneous</h2>
+        <h2>18. Miscellaneous</h2>
 
-        <h3>17.1 Entire Agreement</h3>
+        <h3>18.1 Entire Agreement</h3>
         <p>These Terms, together with our Privacy Policy, constitute the entire agreement between you and BibleChat.</p>
 
-        <h3>17.2 Severability</h3>
+        <h3>18.2 Severability</h3>
         <p>If any provision of these Terms is found invalid or unenforceable, the remaining provisions remain in full effect.</p>
 
-        <h3>17.3 No Waiver</h3>
+        <h3>18.3 No Waiver</h3>
         <p>Our failure to enforce any provision does not waive our right to enforce it later.</p>
 
-        <h3>17.4 Assignment</h3>
+        <h3>18.4 Assignment</h3>
         <p>You may not assign these Terms without our consent. We may assign these Terms to any successor or affiliate.</p>
 
-        <h3>17.5 Force Majeure</h3>
+        <h3>18.5 Force Majeure</h3>
         <p>We are not liable for delays or failures caused by events beyond our reasonable control (e.g., natural disasters, pandemics, server outages, third-party service failures).</p>
 
-        <h2>18. Contact Us</h2>
+        <h2>19. Contact Us</h2>
 
         <p>For questions, concerns, or support regarding these Terms or the BibleChat service:</p>
 
